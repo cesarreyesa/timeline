@@ -1,0 +1,17 @@
+<h2>Show note</h2>
+
+<ul>
+
+  <li>
+    <strong>Note:</strong>
+    <%= @note.note %>
+  </li>
+
+  <li>
+    <strong>Date:</strong>
+    <%= @note.date %>
+  </li>
+
+</ul>
+
+<%= link "Back", to: note_path(@conn, :index) %>
